@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f7f5; /* Menta pastel suave */
+    color: #2d3748;
+    line-height: 1.6;
+}
+
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #4a7c59;
+    color: #ffffff;
+    padding: 1.2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+}
+
+
+nav {
+    border: 2px solid #a3cfc4;
+    border-radius: 20px;
+    padding: 0.3rem 0.6rem;
+    background-color: #3b6347;
+    max-width: 100%;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin: 0.2rem 0.4rem;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 500;
+    padding: 0.4rem 0.8rem;
+    border-radius: 12px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #699b79;
+}
+
+
+main {
+    max-width: 850px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+
+section {
+    background-color: #ffffff;
+    padding: 2rem;
+    margin-bottom: 2.5rem;
+    border: 2px solid #cbe3db;
+    border-radius: 24px 8px 24px 8px;
+    scroll-margin-top: 140px; 
+}
+
+
+h2 {
+    display: inline-block;
+    color: #1f3a34;
+    font-size: 1.15rem;
+    font-weight: 700;
+    background-color: #e2f0eb;
+    border: 2px solid #a3cfc4;
+    padding: 0.4rem 1.2rem;
+    border-radius: 16px;
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    color: #3b6961;
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin: 1.8rem 0 0.8rem 0;
+}
+
+p {
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+}
+
+
+section p {
+    background-color: #f2f7f5;
+    border: 1px solid #cbe3db;
+    border-radius: 12px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+}
+
+
+.contenedor-fotos {
+    text-align: center;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 1.5rem 0;
+}
+
+
+section a {
+    color: #3b6347;
+    background-color: #e2f0e8;
+    padding: 4px 8px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin: 2px 0;
+}
+
+section a:hover {
+    background-color: #4a7c59;
+    color: #ffffff;
+}
+
+
+.fotofundador {
+    width: 140px;          
+    height: 160px;            
+    margin: 10px 15px 10px 0;
+    vertical-align: top;  
+
+}
+
+.contenedorfotos p {
+    display: inline-block !important;
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 12px;
+}
+
+
+.galeriafoto {
+    width: 130px;
+    height: 130px;
+    display: block;
+    border-radius: 8px;
+}
+
+
+#bibliografia ul {
+    margin-left: 1.5rem;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #4a7c59;
+    color: #ffffff;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}
